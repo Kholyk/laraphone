@@ -2,9 +2,9 @@
 
 namespace Kholyk\Laraphone;
 
+use Kholyk\Laraphone\Commands\LaraphoneCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Kholyk\Laraphone\Commands\LaraphoneCommand;
 
 class LaraphoneServiceProvider extends PackageServiceProvider
 {
