@@ -19,6 +19,7 @@ class LaraphoneServiceProvider extends PackageServiceProvider
             ->name('laraphone')
             ->hasConfigFile()
             ->hasViews()
+            ->hasRoute('web')
             ->hasMigration('create_laraphone_table')
             ->hasCommand(LaraphoneCommand::class);
     }
